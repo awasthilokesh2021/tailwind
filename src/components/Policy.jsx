@@ -3,7 +3,7 @@ import React from "react";
 const Policy = () => {
   return (
     <div className="mt-14">
-      <h1 className="text-4xl text-center mb-2">Our services</h1>
+      <h1 className="text-4xl text-center py-4 mb-1 lg:mb-3">Our services</h1>
       <hr className="w-1/5 mx-auto"></hr>
       {/* card */}
       <div className="grid justify-items-center grid-cols-1 mt-4 lg:grid-cols-3">

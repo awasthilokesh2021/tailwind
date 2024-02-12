@@ -1,24 +1,24 @@
 import React from "react";
+import imgadd from "./images/s.jpeg"
 
 const Home = () => {
   return (
-    <div className=" w-full  mt-14">
-      <div className="relative">
-        <div className=" block w-50 absolute top-6  z-10 text-white  p-10">
-          <p className=" text-white font-medium">Certainly! Let’s explore some fascinating scientific topics. Here are a few snippets from Science News and Scholastic Science World:
-          Certainly! The term "science world" is quite broad, encompassing various fields and topics within the realm of science. Here are some general categories and content areas related to the science world:
-          These are just a few examples, and each category can be further divided into numerous subfields and topics. If you have a specific area of interest within the science world, feel free to ask for more detailed information!
-          </p>
-          <p>
-          These are just a few examples, and each category can be further divided into numerous subfields and topics. If you have a specific area of interest within the science world, feel free to ask for more detailed information!
-          </p>
-        </div>
-        <img
-          className="w-full h-50"
-          src="https://sitescdn.wearevennture.co.uk/public/nes-fircroft/mediahub/istock_944453634___national_science_week-f9d9513bef2d4c609efa2e3b8da282f9.jpg"
-          alt="card"
-        />
-      </div>
+    <div className="mt-14 min-h-screen py-6">
+          <div className=" container mx-auto px-4">
+              <div className=" flex flex-col lg:flex-row gap-5 mx-auto max-w-screen-xl">
+                  <div className="w-full lg:w-1/2 px-10 py-8 flex flex-col justify-center gap-5">
+                       <h1 className="text-2xl font-bold">Before sell out the images</h1>
+                       <p className=" text-gray-400"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ea aliquam. Accusamus ipsum voluptatibus tempore odio libero unde pariatur sapiente earum quae sit nesciunt praesentium deleniti, totam, repudiandae magnam culpa!</p>
+                       <div className="flex gap-4">
+                         <button className=" bg-green-600 text-white px-4 py-2 rounded-lg">click me</button>
+                         <button className=" bg-gray-500 text-white px-4 py-2 rounded-lg">save</button>
+                       </div>
+                  </div>
+                  <div className="w-full lg:w-1/2 px-4 py-2" >
+                      <img className="w-full" src={imgadd} alt="data" />
+                  </div>
+              </div>
+          </div>
     </div>
   );
 };

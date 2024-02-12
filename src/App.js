@@ -6,8 +6,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Policy from './components/Policy'
-
-
+import "./App.css"
 
 const App = () => {
   return (
